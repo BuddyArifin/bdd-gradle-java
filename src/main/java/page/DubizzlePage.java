@@ -17,7 +17,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class DubizzlePage {
     private WebDriver driver;
-    private String baseUrl = "https://dubai.dubizzle.com";
+//    private String baseUrl = "https://dubai.dubizzle.com";
+    private String baseUrl = "https://www.youtube.com/";
     private static String ads;
 
 
@@ -50,8 +51,8 @@ public class DubizzlePage {
 
     public void iOpenWebsiteDubizzle() {
         driver.get(baseUrl);
-        Assert.assertTrue(isElementPresent(viewAllProperty),
-                "Property Category Not displayed");
+//        Assert.assertTrue(isElementPresent(viewAllProperty),
+//                "Property Category Not displayed");
     }
 
     public void clickPropertyCateogory() {
