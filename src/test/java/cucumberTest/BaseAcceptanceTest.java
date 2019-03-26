@@ -27,7 +27,7 @@ public class BaseAcceptanceTest {
     protected static WebDriver driver;
     protected BrowserMobProxyServer proxy;
 
-    @Before
+//    @Before
     public void setup() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/mac/chromedriver");
 
@@ -59,7 +59,7 @@ public class BaseAcceptanceTest {
 
     }
 
-    @After
+//    @After
     public void teardown() throws IOException {
         Har har = proxy.getHar();
 

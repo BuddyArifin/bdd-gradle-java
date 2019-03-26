@@ -27,6 +27,8 @@ repositories {
 }
 
 dependencies {
+    compile 'io.appium:java-client:3.3.0'
+    compile 'com.google.code.gson:gson:2.7'
     compile 'org.testng:testng:6.9.9'
     compile 'info.cukes:cucumber-testng:1.2.5'
     compile 'info.cukes:cucumber-junit:1.2.5'
